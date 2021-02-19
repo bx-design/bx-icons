@@ -1,0 +1,8 @@
+{
+  "name": "bx-icons",
+  "version": "0.0.1",
+  "description": "Collection of BX Design System icons",
+  "repository": "git@github.com:bx-design/bx-icons.git",
+  "author": "BX Creative Studio",
+  "license": "MIT"
+}
