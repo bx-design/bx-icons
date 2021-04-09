@@ -1,6 +1,6 @@
-import iconsArray from './icon-list'
+import iconList from './icon-list'
 
-const bxIcons = iconsArray
+const bxIcons = iconList
 
-export { IconsType, IconsArrayType, IconList } from './types'
+export type { IconsType, IconsListType, IconsNamesListType } from './types'
 export default bxIcons

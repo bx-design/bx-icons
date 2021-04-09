@@ -1,17 +1,16 @@
-import iconsArray from '../icon-list'
+import iconList from '../icon-list'
+import { IconsNamesListType } from '../types'
 
 describe('Icon List', () => {
   it('Check array', () => {
-    expect(Array.isArray(iconsArray)).toBeTruthy()
+    expect(typeof iconList === 'object').toBeTruthy()
   })
 
   it('Check some items from array', () => {
-    const haveItem = (itemName: string) =>
-      iconsArray.find((icon) => icon.name === itemName)
+    const haveItem = (itemName: IconsNamesListType) => iconList[itemName]
 
     expect(haveItem('back')).toBeTruthy()
     expect(haveItem('bell')).toBeTruthy()
     expect(haveItem('box')).toBeTruthy()
-    expect(haveItem('hello')).toBeFalsy()
   })
 })
