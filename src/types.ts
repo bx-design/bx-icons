@@ -109,6 +109,7 @@ export type IconsNamesListType =
   | 'packages-transport'
   | 'padlock'
   | 'pencil'
+  | 'pencil-2'
   | 'person-circle'
   | 'person-executive'
   | 'person'
