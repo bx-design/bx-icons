@@ -327,6 +327,14 @@ const iconList: IconsListType = {
       }
     ]
   },
+  'dots-vertical': {
+    paths: [
+      {
+        d:
+          'M10 4a2 2 0 104 0 2 2 0 00-4 0zM14 12c0-1.107-.893-2-2-2s-2 .893-2 2 .893 2 2 2 2-.91 2-2zM10 20a2 2 0 104 0 2 2 0 00-4 0z'
+      }
+    ]
+  },
   down: {
     paths: [
       {

@@ -43,6 +43,7 @@ export type IconsNamesListType =
   | 'dashboard-2'
   | 'diamond'
   | 'dots'
+  | 'dots-vertical'
   | 'down'
   | 'download'
   | 'edit'
